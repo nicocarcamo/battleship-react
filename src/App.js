@@ -1,7 +1,10 @@
+import { useEffect, useState } from 'react';
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <h1>Battleship!!!!!</h1>
     </div>
   );
 }
