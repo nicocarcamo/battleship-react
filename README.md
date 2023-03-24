@@ -5,7 +5,7 @@ Simple React.js implementation of the famous Battleship game
 # Website
 
 You can check the Vercel deploy for this project on this link:
-`https://battleship-react-topaz.vercel.app/`
+https://battleship-react-topaz.vercel.app/
 
 # How to run locally
 
