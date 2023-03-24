@@ -8,8 +8,7 @@ function Board(props) {
       setColor(
         props.boxValue === 1 && props.type !== "CPU" ? "black" :
           props.boxValue === 2 ? "red" :
-            props.boxValue === 3 ? "dark-gray" :
-              ""
+            props.boxValue === 3 ? "dark-gray" : ""
       );
     }
     changeColor();

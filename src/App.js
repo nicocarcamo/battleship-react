@@ -13,6 +13,7 @@ function App() {
   const [enemyPoints, setEnemyPoints] = useState(null);
   const [message, setMessage] = useState(null);
 
+  //generate board
   function gameBoard(cols, setBoxes, setPoints) {
     const newArray = Array.from({ length: cols }, () => Array.from({ length: cols }, () => 0));
     let points = 0;
@@ -30,8 +31,7 @@ function App() {
       x += dx;
       y += dy;
     }
-    }
-    
+    } 
     setPoints(points);
     setBoxes(newArray);
     }

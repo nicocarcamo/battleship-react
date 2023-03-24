@@ -4,8 +4,8 @@ function BoardContainer(props) {
 const { type, boxes, handleClick } = props;
 
 const boxElements = [];
-boxes.forEach((column, i) => {
-    column.forEach((box, j) => {
+boxes.forEach((col, i) => {
+    col.forEach((box, j) => {
         boxElements.push(
             <Board
                 onClickBox={() => handleClick(type, i, j)}
